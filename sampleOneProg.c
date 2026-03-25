@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define SIZE 32
+
 int main()
 {
 char *data1;
 
-data1 = malloc (SIZE);
+data1 = malloc (100);
 printf ("Please input username: ");
-scanf("%s", data1);
+scanf ("%s", data1);
 printf ("You entered:[%s]\n", data1); 
 free (data1);
 return 0;
